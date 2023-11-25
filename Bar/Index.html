@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar do Ti</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</head>
+<body class="body">
+  <!--Nav Bar-->
+  <div>
+        <nav class="navbar navbar-expand-lg navbar-dark texto-nav">
+              <a class="navbar-brand title" href="Index.html">
+                <img src="icone.png" alt="Icone" width="40" height="38">
+                  Bar do Ti
+                </a>             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Produtos.html">Produtos e Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="Comanda.html">Comandas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="Func.html">Colaboradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Informações complementares
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Sobre.html">Sobre</a></li>
+                      <li><a class="dropdown-item" href="MiniC.html">Minicurriculo</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="audio-container"> 
+                  <audio controls autoplay id="audioPlayer" class="ml-auto custom-audio" >
+                  <source src="garçom.mp3" type="audio/mp3">
+                  </audio>
+              </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <!--Header-->
+    <header class="header">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-12">
+                  <div class="header-text text-center">
+                      <h1>Bar do Ti</h1>
+                      <p>Um lugar único para desfrutar de momentos especiais.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+</div>
+      
+    <!--Carousel-->
+    <div class="row">
+      <div class="col-6">
+        <div id="Carrosel" class="carousel slide text-dark">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Carrosel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#Carrosel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#Carrosel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="margarita2.jpg" class="d-block w-100" alt="Margarita">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Margarita</h5>
+                <p>Tequila, sal, sumo de limão e xarope de agave.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="sotb.jpg" class="d-block w-100" alt="Sex on the beach">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Sex on the beach</h5>
+                <p>Vodka, schnapps de pêssego, suco de laranja, e suco de oxicoco.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="sangria.jpg" class="d-block w-100" alt="Sangria">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Sangria</h5>Mistura de vinho tinto ou vinho branco, sumo de fruta, pedaços de frutos e açúcar.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Carrosel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Carrosel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 1 Texto lateral direito-->
+      <div class="col-6">
+        <h2 class="title">Bem-vindos ao Bar do Ti</h2><br><br>
+        <p>No centro de São Paulo, o Bar do Ti é mais do que um simples lugar para desfrutar de suas bebidas favoritas. É um espaço acolhedor, cheio de personalidade e boas energias, onde cada visita é uma experiência única.</p>
+        <br><br>
+        <p>Em noites selecionadas, transformamos o Bar do Ti em um palco para talentos locais, oferecendo música ao vivo e entretenimento para tornar suas noites ainda mais especiais. Desfrute de performances únicas enquanto aprecia sua bebida favorita.</p>
+      </div>
+    </div>
+
+    <!--2 texto lateral esquerdo-->
+    <div class="container">
+      <div class="row">
+        <h2>Informações no Meio do Site</h2>
+        <p>UUEEPPAAA IIIIRRAAAA UOUOUOUOUOU AAAUUUUU.</p>
+      </div>
+      
+
+      <!--carrosel 2
+        <div class="col-12">
+          <div id="Carrosel" class="carousel slide text-dark">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#Carrosel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#Carrosel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#Carrosel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="margarita2.jpg" class="d-block w-100" alt="Margarita">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Margarita</h5>
+                  <p>Tequila, sal, sumo de limão e xarope de agave.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="sotb.jpg" class="d-block w-100" alt="Sex on the beach">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Sex on the beach</h5>
+                  <p>Vodka, schnapps de pêssego, suco de laranja, e suco de oxicoco.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="sangria.jpg" class="d-block w-100" alt="Sangria">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Sangria</h5>Mistura de vinho tinto ou vinho branco, sumo de fruta, pedaços de frutos e açúcar.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Carrosel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Carrosel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </div>
+  -->
+  
+  
+    
+</body>
+</html>
