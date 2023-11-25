@@ -1,2 +1,2 @@
 # Brazinho Projeto da disciplina Programação Script
-AAAA
+HTML, CSS, JavaScript e PHP
